@@ -202,8 +202,6 @@ download_gtrends <- function(intervalstr,query,region,prop,tz,uselocal){
     }
     if(!uselocal){
       ###################################################
-      # ERASE THIS BEFORE PUBLICATION!
-      ###################################################
       account <- sample(c(1,2,3,4),1) # THE NUMBER OF YOUR GOOGLE ACCOUNTS GOES HERE
       username <- # THE VECTOR OF YOUR GOOGLE ACCOUNTS GOES HERE
       passwd <- # THE VECTOR OF THE PASSWORDS FOR YOUR GOOGLE ACCOUNTS GOES HERE
